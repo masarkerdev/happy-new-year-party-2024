@@ -1,0 +1,57 @@
+/*Universal design*/
+
+
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0px 0px;
+
+}
+
+/*hero section design start*/
+
+.hero-section-wrapper {
+    width: 1320px;
+    height: 600px;
+    background-color: blue;
+    background-image: url('../assets/Banner.png');
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 16px;
+    
+}
+.small-greetings{
+    padding-top: 230px;
+    padding-bottom: 30px;
+
+}
+.hero-section-greetings>h3 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: Merriweather;
+    line-height: 0px;
+}
+
+.hero-section-greetings>h1 {
+    color: white;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height:85px;
+    padding: 0px 180px;
+  
+}
+
+.hero-section-greetings {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+/*hero section design end*/
+
+/*offer section design start*/
+
