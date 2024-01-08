@@ -1,68 +1,75 @@
-/*Universal design*/
-
-
 * {
-    font-family: 'Merriweather', serif;
-    margin: 0px 0px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif, 'Merriweather', serif;
+}
+
+body {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/*shared design*/
+.hero-section,
+.offer-section,
+.cta-section,
+.schedule-section, .best-offer-section {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
 
 }
 
-/*hero section design start*/
+/*hero section design start */
 
 .hero-section-wrapper {
-    width: 1320px;
+    width: auto;
     height: 600px;
-    background-color: blue;
-    background-image: url('../assets/Banner.png');
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../assets/Banner.png');
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
-    align-items: center;
     border-radius: 16px;
-   
-
-}
-
-.small-greetings {
-    padding-top: 230px;
-    padding-bottom: 30px;
-
-}
-
-.hero-section-greetings>h3 {
-    color: white;
     text-align: center;
-    font-size: 32px;
+
+}
+
+.hero-section-greetings {
+    padding-top: 180px;
+}
+
+.small-greeting {
+    color: #FFF;
     font-family: Merriweather;
-    line-height: 0px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
 }
 
-.hero-section-greetings>h1 {
-    color: white;
-    text-align: center;
+.main-title {
+    color: #FFF;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 85px;
-    padding: 0px 180px;
-
+    margin: 0px 250px;
 }
 
-.hero-section-greetings {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5)
+/*hero section design end */
+
+/*hero section design end */
+
+.offer-section-wrapper {
+    width: auto;
+    text-align: center;
+    margin-top: 100px;
 }
 
-/*hero section design end*/
-
-/*offer section design start*/
-
-
-.offer-header {
+.offer-headline {
     color: #F00;
-
     text-align: center;
     font-family: Inter;
     font-size: 88px;
@@ -71,7 +78,7 @@
     line-height: normal;
 }
 
-.offer-topic-line {
+.offer-section-topic-line {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -79,7 +86,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-top: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+
 }
 
 .offer-section-category {
@@ -90,48 +99,39 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 60px;
 }
 
-.offer-section-image {
-    margin: 40px 350px;
-}
-
-/*CTA-scetions-design*/
-.CTA-section{
-    margin-left: 80px;
-    margin-right: 80px;
-}
-.cta-left-side{
-    padding-left: 140px;
-    padding-top:125px;
-}
-.cta-right-side{
-    padding: 66px 120px 66px 0px;
-}
-
-.CTA-section-wrapper {
-    display: flex;
-    justify-content: first baseline;
-    background-image: url('../assets/Vectorrr.png');
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-    background: linear-gradient(180deg, black white);
+/*cta secntion designs here stated*/
+.cta-section-wrapper {
+    width: auto;
+    height: 600px;
     border-radius: 16px;
-
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../assets/Vectorrr.png');
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
 }
 
+.cta-section-left-side {
+    width: 50%;
+    margin-left: 100px;
+}
 
+.cta-right-side {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
 
 .cta-left-side-headline {
     color: #FFF;
-
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
     line-height: 88px;
-    /* 137.5% */
     letter-spacing: 7.04px;
 }
 
@@ -141,6 +141,139 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
+    line-height: 26px;
+    padding: 15px 0px;
 }
+
+.cta-left-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+}
+
+/*schedule section designs start here*/
+
+.scheule-section-wrapper {
+    width: 100%;
+    height: 480px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 120px;
+}
+
+.schedule-scetion-content {
+    padding-top: 130px;
+
+}
+
+.schedule-section-headline {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.schedule-section-btn {
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    margin-top: 35px;
+}
+.schedule-scetion-content >button a{
+    text-decoration: none;
+        color: #FFF;
+}
+.schedule-scetion-content >button:hover{
+   background-color: #070211;
+   transition: 500ms;
+}
+/*schedule section designs end here*/
+
+/*best offer section designs start here*/
+.best-offer-section-wrapper{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    background-color: #FFF;
+}
+.best-offer-section-leftside{
+
+    padding-top: 100px;
+}
+
+
+.best-offer-section-middleside{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 450px;
+border: 15px solid #F00;
+}
+
+.best-offer-section-rightside{
+    padding: 100px 15px 20px 20px;
+}
+.best-offer-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.comingsoon-title{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.best-offer-para{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.rightside-year-headline{
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.happy-new-year
+{
+width: 140px;
+height: 140px;
+
+}
+
+/*schedule section designs end here*/
+
