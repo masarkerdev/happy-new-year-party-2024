@@ -116,7 +116,10 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    background: linear-gradient(180deg, black white);}
+    background: linear-gradient(180deg, black white);
+    border-radius: 16px;
+
+}
 
 
 
